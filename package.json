@@ -1,0 +1,28 @@
+{
+    "name": "datatables.net-fixedcolumns-bs",
+    "version": "3.1.0",
+    "description": "FixedColumns for DataTables with styling for [Bootstrap](http://getbootstrap.com/)",
+    "files": [
+        "css/fixedColumns.bootstrap.css"
+    ],
+    "main": "./js/fixedColumns.bootstrap.js",
+    "keywords": [
+        "fixed columns",
+        "DataTables",
+        "jQuery",
+        "table",
+        "Bootstrap"
+    ],
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
+    "author": {
+        "name": "SpryMedia Ltd",
+        "url": "http://datatables.net"
+    },
+    "dependencies": {
+        "jquery": ">=1.7",
+        "datatables.net-bs": ">=1.10.9",
+        "datatables.net-fixedcolumns": ">=3.1.0"
+    }
+}

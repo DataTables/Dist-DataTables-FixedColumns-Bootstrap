@@ -1,0 +1,10 @@
+{
+    "css": [
+        "css/fixedColumns.bootstrap.css",
+        "css/fixedColumns.bootstrap.min.css"
+    ],
+    "js": [],
+    "src-repo": "http://github.com/DataTables/FixedColumns",
+    "last-sync": "fa987b943a5a525f351dd64ce1cd4a779ee2a535",
+    "last-tag": "3.1.0"
+}
