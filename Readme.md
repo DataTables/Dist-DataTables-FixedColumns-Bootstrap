@@ -19,7 +19,7 @@ npm install datatables.net-fixedcolumns-bs
 
 ```
 var $ = require( 'jquery' );
-require( 'datatables.net-fixedcolumns-bs' )( $ );
+require( 'datatables.net-fixedcolumns-bs' )( window, $ );
 ```
 
 ### bower
