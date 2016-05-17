@@ -5,6 +5,7 @@
     "files": [
         "css/fixedColumns.bootstrap.css"
     ],
+    "style": "css/fixedColumns.bootstrap.css",
     "keywords": [
         "fixed columns",
         "DataTables",
