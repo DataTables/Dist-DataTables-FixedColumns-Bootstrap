@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-fixedcolumns-bs",
-    "description": "FixedColumns for DataTables with styling for [Bootstrap](http://getbootstrap.com/)",
+    "description": "FixedColumns for DataTables with styling for [Bootstrap 3](http://getbootstrap.com/)",
     "main": [
         "css/fixedColumns.bootstrap.css"
     ],
