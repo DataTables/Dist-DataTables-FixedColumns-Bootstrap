@@ -1,6 +1,6 @@
-# FixedColumns for DataTables with styling for [Bootstrap](http://getbootstrap.com/)
+# FixedColumns for DataTables with styling for [Bootstrap](https://getbootstrap.com/docs/3.3/)
 
-This package contains distribution files required to style [FixedColumns extension](https://datatables.net/extensions/fixedcolumns) for [DataTables](https://datatables.net/) with styling for [Bootstrap](http://getbootstrap.com/).
+This package contains a built distribution of the [FixedColumns extension](https://datatables.net/extensions/FixedColumns) for [DataTables](https://datatables.net/) with styling for [Bootstrap](https://getbootstrap.com/docs/3.3/).
 
 FixedColumns provides the ability to fix one or more columns to the left and / or right hand side of a DataTable that scrolls along the x-axis. This can be used if the columns show grouping, index or similar information.
 
@@ -19,7 +19,7 @@ npm install datatables.net-fixedcolumns-bs
 
 ```
 var $ = require( 'jquery' );
-require( 'datatables.net-fixedcolumns-bs' )( window, $ );
+var dt = require( 'datatables.net-fixedcolumns-bs}' )( window, $ );
 ```
 
 ### bower
@@ -32,7 +32,7 @@ bower install --save datatables.net-fixedcolumns-bs
 
 ## Documentation
 
-Full documentation of the DataTables options, API and plug-in interface are available on the DOCS_LINK. The site also contains information on the wide variety of plug-ins that are available for DataTables, which can be used to enhance and customise your table even further.
+Full documentation and examples for FixedColumns can be found [on the website](https://datatables.net/extensions/fixedcolumns).
 
 
 ## Bug / Support
@@ -48,3 +48,4 @@ If you are thinking of contributing code to DataTables, first of all, thank you!
 ## License
 
 This software is released under the [MIT license](//datatables.net/license). You are free to use, modify and distribute this software, but all copyright information must remain.
+

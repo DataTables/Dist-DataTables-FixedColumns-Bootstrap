@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-  <metadata>
-    <id>datatables.net-fixedcolumns-bs</id>
-    <version>3.3.1</version>
-    <description>FixedColumns for DataTables</description>
-    <authors>SpryMedia Ltd</authors>
-    <projectUrl>http://datatables.net</projectUrl>
-    <license type="expression">MIT</license>
-    <tags>fixedcolumns DataTables jQuery table Bootstrap</tags>
-    <repository type="git" url="https://github.com/DataTables/Dist-DataTables-FixedColumns-Bootstrap.git"/>
-    <dependencies>
-      <dependency id="jquery" version="1.7.0"/>
-      <dependency id="datatables.net" version="1.10.15"/>
-      <dependency id="datatables.net-fixedcolumns" version="3.3.1"/>
-      <dependency id="bootstrap" version="3.*"/>
-    </dependencies>
-    <contentFiles>
-      <files include="**/*" buildAction="Content"/>
-    </contentFiles>
-  </metadata>
-  <files>
-    <file src="js/fixedcolumns.bootstrap.js" target="content\Scripts"/>
-    <file src="js/fixedcolumns.bootstrap.min.js" target="content\Scripts"/>
-    <file src="css/fixedcolumns.bootstrap.css" target="content\Content"/>
-    <file src="css/fixedcolumns.bootstrap.min.css" target="content\Content"/>
-    <file src="js/fixedcolumns.bootstrap.js" target="contentFiles\any\any\wwwroot\js"/>
-    <file src="js/fixedcolumns.bootstrap.min.js" target="contentFiles\any\any\wwwroot\js"/>
-    <file src="css/fixedcolumns.bootstrap.css" target="contentFiles\any\any\wwwroot\css"/>
-    <file src="css/fixedcolumns.bootstrap.min.css" target="contentFiles\any\any\wwwroot\css"/>
-  </files>
+    <metadata>
+        <version>3.3.2</version>
+        <id>datatables.net-fixedcolumns-bs</id>
+        <description>This is FixedColumns for DataTables with styling for [Bootstrap](https://getbootstrap.com/docs/3.3/)</description>
+        <repository type="git" url="https://github.com/DataTables/Dist-DataTables-FixedColumns-Bootstrap.git"/>
+        <authors>SpryMedia Ltd</authors>
+        <projectUrl>http://datatables.net</projectUrl>
+        <license type="expression">MIT</license>
+        <tags>FixedColumns  Bootstrap  Datatables jQuery table</tags>
+        <dependencies>
+            <dependency id="datatables.net-fixedcolumns" version=">=3.3.2"/>
+            <dependency id="datatables.net-bs" version=">=1.10.24"/>
+        </dependencies>
+        <contentFiles>
+            <files include="**/*" buildAction="Content"/>
+        </contentFiles>
+    </metadata>
+    <files>
+        <file src="js/fixedColumns.bootstrap.js" target="content\Scripts"/>
+        <file src="js/fixedColumns.bootstrap.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/fixedColumns.bootstrap.min.js" target="content\Scripts"/>
+        <file src="js/fixedColumns.bootstrap.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="css/fixedColumns.bootstrap.css" target="content\Content"/>
+        <file src="css/fixedColumns.bootstrap.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="css/fixedColumns.bootstrap.min.css" target="content\Content"/>
+        <file src="css/fixedColumns.bootstrap.min.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="types/fixedColumns.bootstrap.d.ts" target="content\Scripts"/>
+        <file src="types/fixedColumns.bootstrap.d.ts" target="contentFiles\any\any\wwwroot\js"/>
+    </files>
 </package>
+
