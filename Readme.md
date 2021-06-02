@@ -1,6 +1,6 @@
 # FixedColumns for DataTables with styling for [Bootstrap](https://getbootstrap.com/docs/3.3/)
 
-This package contains a built distribution of the [FixedColumns extension](https://datatables.net/extensions/FixedColumns) for [DataTables](https://datatables.net/) with styling for [Bootstrap](https://getbootstrap.com/docs/3.3/).
+This package contains a built distribution of the [FixedColumns extension](https://datatables.net/extensions/fixedcolumns) for [DataTables](https://datatables.net/) with styling for [Bootstrap](https://getbootstrap.com/docs/3.3/).
 
 FixedColumns provides the ability to fix one or more columns to the left and / or right hand side of a DataTable that scrolls along the x-axis. This can be used if the columns show grouping, index or similar information.
 
