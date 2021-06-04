@@ -4,7 +4,7 @@
     "main": "js/fixedColumns.bootstrap.js",
     "style": "css/fixedColumns.bootstrap.css",
     "types": "./types/fixedColumns.bootstrap.d.ts",
-    "version": "3.3.2",
+    "version": "3.3.3",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
@@ -19,9 +19,9 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-fixedcolumns": ">=3.3.2",
-        "datatables.net-bs": ">=1.10.24",
-        "jquery": ">=1.7"
+        "jquery": ">=1.7",
+        "datatables.net-bs": "^1.10.15",
+        "datatables.net-fixedcolumns": "3.3.3"
     },
     "moduleType": [
         "globals",
