@@ -4,7 +4,7 @@
     "main": "js/fixedColumns.bootstrap.js",
     "style": "css/fixedColumns.bootstrap.css",
     "types": "./types/fixedColumns.bootstrap.d.ts",
-    "version": "3.3.2",
+    "version": "3.3.3",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
