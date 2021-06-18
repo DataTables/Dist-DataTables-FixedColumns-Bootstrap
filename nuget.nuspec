@@ -11,7 +11,7 @@
         <tags>FixedColumns  Bootstrap  Datatables jQuery table</tags>
         <dependencies>
             <dependency id="datatables.net-fixedcolumns" version=">=3.3.3"/>
-            <dependency id="datatables.net-bs" version=">=1.10.26-dev"/>
+            <dependency id="datatables.net-bs" version=">=1.10.25"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
