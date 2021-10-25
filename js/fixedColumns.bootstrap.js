@@ -1,4 +1,4 @@
-/*! FixedColumns 4.0.1-dev
+/*! FixedColumns 4.0.1
  * 2019-2021 SpryMedia Ltd - datatables.net/license
  */
 (function () {
