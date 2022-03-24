@@ -1,7 +1,7 @@
-table.dataTable thead th, table.dataTable thead td, table.dataTable tfoot th, table.dataTable tfoot td {
-  background-color: white;
+table.dataTable thead th.dtfc-fixed-left, table.dataTable thead th.dtfc-fixed-right, table.dataTable thead td.dtfc-fixed-left, table.dataTable thead td.dtfc-fixed-right, table.dataTable tfoot th.dtfc-fixed-left, table.dataTable tfoot th.dtfc-fixed-right, table.dataTable tfoot td.dtfc-fixed-left, table.dataTable tfoot td.dtfc-fixed-right {
+  background-color: white !important;
 }
-table.dataTable tbody tr td {
+table.dataTable tbody tr td.dtfc-fixed-left, table.dataTable tbody tr td.dtfc-fixed-right {
   background-color: #ffffff;
 }
 table.dataTable.table-striped tbody tr.odd td {
