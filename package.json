@@ -20,8 +20,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-fixedcolumns": ">=4.0.0",
-        "datatables.net-bs": ">=1.11.3",
+        "datatables.net-fixedcolumns": ">=4.0.2",
+        "datatables.net-bs": ">=1.11.5",
         "jquery": ">=1.7"
     },
     "moduleType": [
