@@ -8,5 +8,4 @@ import FixedColumns from 'datatables.net-fixedcolumns';
 
 
 
-
 export default DataTable;
