@@ -1,3 +1,5 @@
-/*! Bootstrap integration for DataTables' FixedColumns
- * © SpryMedia Ltd - datatables.net/license
- */
+
+import DataTable from 'datatables.net-fixedcolumns';
+
+export default DataTable;
+export * from 'datatables.net-fixedcolumns';
