@@ -13,6 +13,6 @@
         "types/fixedColumns.bootstrap.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/FixedColumns",
-    "last-tag": "5.0.0",
+    "last-tag": "5.0.2",
     "last-sync": "9fa88b2f72611ff02a668ce1ce17aaaa8e76692d"
 }
