@@ -10,8 +10,8 @@
         <license type="expression">MIT</license>
         <tags>FixedColumns  Bootstrap  Datatables jQuery table</tags>
         <dependencies>
-            <dependency id="datatables.net-fixedcolumns" version="4.1.0"/>
-            <dependency id="datatables.net-bs" version="1.12.1"/>
+            <dependency id="datatables.net-fixedcolumns" version="5.0.4"/>
+            <dependency id="datatables.net-bs" version="2.3.2"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
@@ -22,6 +22,10 @@
         <file src="js/fixedColumns.bootstrap.js" target="contentFiles\any\any\wwwroot\js"/>
         <file src="js/fixedColumns.bootstrap.min.js" target="content\Scripts"/>
         <file src="js/fixedColumns.bootstrap.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/fixedColumns.bootstrap.min.mjs" target="content\Scripts"/>
+        <file src="js/fixedColumns.bootstrap.min.mjs" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/fixedColumns.bootstrap.mjs" target="content\Scripts"/>
+        <file src="js/fixedColumns.bootstrap.mjs" target="contentFiles\any\any\wwwroot\js"/>
         <file src="css/fixedColumns.bootstrap.css" target="content\Content"/>
         <file src="css/fixedColumns.bootstrap.css" target="contentFiles\any\any\wwwroot\css"/>
         <file src="css/fixedColumns.bootstrap.min.css" target="content\Content"/>
