@@ -1,3 +1,13 @@
+:root {
+  --dtfc_background: white;
+  --dtfc-thead-cell_background: var(--dtfc_background);
+  --dtfc-tbody-cell_background: var(--dtfc_background);
+}
+
+:root.dark {
+  --dtfc_background: rgb(33, 37, 41);
+}
+
 table.dataTable thead tr > .dtfc-fixed-start,
 table.dataTable thead tr > .dtfc-fixed-end,
 table.dataTable tfoot tr > .dtfc-fixed-start,
@@ -5,12 +15,12 @@ table.dataTable tfoot tr > .dtfc-fixed-end {
   top: 0;
   bottom: 0;
   z-index: 3;
-  background-color: white;
+  background-color: var(--dtfc-thead-cell_background);
 }
 table.dataTable tbody tr > .dtfc-fixed-start,
 table.dataTable tbody tr > .dtfc-fixed-end {
   z-index: 1;
-  background-color: white;
+  background-color: var(--dtfc-tbody-cell_background);
 }
 table.dataTable tr > .dtfc-fixed-left::after,
 table.dataTable tr > .dtfc-fixed-right::after {
@@ -49,19 +59,9 @@ div.dt-scroll div.dtfc-bottom-blocker,
 div.dtfh-floatingparent div.dtfc-top-blocker,
 div.dtfh-floatingparent div.dtfc-bottom-blocker {
   position: absolute;
-  background-color: white;
+  background-color: var(--dtfc-thead-cell_background);
 }
 
-html.dark table.dataTable thead tr > .dtfc-fixed-start,
-html.dark table.dataTable thead tr > .dtfc-fixed-end,
-html.dark table.dataTable tfoot tr > .dtfc-fixed-start,
-html.dark table.dataTable tfoot tr > .dtfc-fixed-end {
-  background-color: var(--dt-html-background);
-}
-html.dark table.dataTable tbody tr > .dtfc-fixed-start,
-html.dark table.dataTable tbody tr > .dtfc-fixed-end {
-  background-color: var(--dt-html-background);
-}
 html.dark table.dataTable.dtfc-scrolling-left tbody > tr > .dtfc-fixed-left::after {
   box-shadow: inset 10px 0 8px -8px rgba(0, 0, 0, 0.3);
 }
@@ -70,10 +70,6 @@ html.dark table.dataTable.dtfc-scrolling-right tbody > tr > .dtfc-fixed-right::a
 }
 html.dark table.dataTable.dtfc-scrolling-right tbody > tr > .dtfc-fixed-right + .dtfc-fixed-right::after {
   box-shadow: none;
-}
-html.dark div.dtfc-top-blocker,
-html.dark div.dtfc-bottom-blocker {
-  background-color: var(--dt-html-background);
 }
 
 div.dtfc-top-blocker,
