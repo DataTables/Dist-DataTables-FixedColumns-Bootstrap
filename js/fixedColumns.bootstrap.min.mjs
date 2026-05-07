@@ -1,4 +1,4 @@
-/*! Bootstrap integration for DataTables' FixedColumns
- * © SpryMedia Ltd - datatables.net/license
+/*! FixedColumns Bootstrap 3 styling 6.0.0-beta.1 for DataTables
+ * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
-import jQuery from"jquery";import DataTable from"datatables.net-bs";import FixedColumns from"datatables.net-fixedcolumns";let $=jQuery;export default DataTable;
+import DataTable from"datatables.net-bs";import FixedColumns from"datatables.net-fixedcolumns";export default DataTable;
