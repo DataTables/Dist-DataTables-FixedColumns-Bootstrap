@@ -5,7 +5,7 @@
     "module": "./js/fixedColumns.bootstrap.mjs",
     "style": "./css/fixedColumns.bootstrap.css",
     "types": "./types/fixedColumns.bootstrap.d.ts",
-    "version": "6.0.0",
+    "version": "6.1.0",
     "files": [
         "js",
         "css",
@@ -20,8 +20,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-fixedcolumns": "6.0.0",
-        "datatables.net-bs": "^3"
+        "datatables.net-fixedcolumns": "6.1.0",
+        "datatables.net-bs": "^3.1"
     },
     "author": {
         "name": "SpryMedia Ltd",
