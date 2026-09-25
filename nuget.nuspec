@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
-        <version>6.1.0</version>
+        <version>6.1.1</version>
         <id>datatables.net-fixedcolumns-bs</id>
         <description>This is FixedColumns for DataTables with styling for [Bootstrap](https://getbootstrap.com/docs/3.3/)</description>
         <repository type="git" url="https://github.com/DataTables/FixedColumns"/>
@@ -10,8 +10,8 @@
         <license type="expression">MIT</license>
         <tags>FixedColumns  Bootstrap  Datatables table</tags>
         <dependencies>
-            <dependency id="datatables.net-fixedcolumns" version="6.1.0"/>
-            <dependency id="datatables.net-bs" version="^3.1"/>
+            <dependency id="datatables.net-fixedcolumns" version="6.1.1"/>
+            <dependency id="datatables.net-bs" version="[3.1.0, 4.0.0)"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
