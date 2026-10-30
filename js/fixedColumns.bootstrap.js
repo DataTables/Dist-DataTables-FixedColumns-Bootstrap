@@ -1,4 +1,4 @@
-/*! FixedColumns Bootstrap 3 styling 6.1.1 for DataTables
+/*! FixedColumns Bootstrap 3 styling 6.1.2 for DataTables
  * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 
@@ -10,17 +10,6 @@
 		});
 	}
 	else if (typeof exports === 'object') {
-		// CommonJS
-		var cjsRequires = function (root) {
-			if (! root.DataTable) {
-				require('datatables.net-bs')(root);
-			}
-
-			if (! window.DataTable.FixedColumns) {
-				require('datatables.net-fixedcolumns')(root);
-			}
-		};
-
 		if (typeof window === 'undefined') {
 			module.exports = function (root) {
 				if (! root) {
@@ -28,14 +17,28 @@
 					// root. This will give an error otherwise
 					root = window;
 				}
+				
+				var DataTable = root.DataTable ?
+					root.DataTable :
+					require('datatables.net-bs')(root);
 
-				cjsRequires(root);
-				return factory(root, root.document, root.DataTable);
+				if (! root.DataTable.FixedColumns) {
+					require('datatables.net-fixedcolumns')(root);
+				}
+
+				return factory(root, root.document, DataTable);
 			};
 		}
 		else {
-			cjsRequires(window);
-			module.exports = factory(window, window.document, window.DataTable);
+			var DataTable = window.DataTable ?
+				window.DataTable :
+				require('datatables.net-bs');
+
+			if (! window.DataTable.FixedColumns) {
+				require('datatables.net-fixedcolumns');
+			}
+
+			module.exports = factory(window, window.document, DataTable);
 		}
 	}
 	else {
